@@ -1,0 +1,8 @@
+http_port: 8080
+gin_mode: debug
+
+log_level: 5 # debug level
+log_file_location: ./app.log
+
+db_type: MySQL
+db_path: 
