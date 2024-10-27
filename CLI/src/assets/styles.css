@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* 默认样式 */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* 针对手机的样式 */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+/* 针对平板的样式 */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+
+/* 针对桌面设备的样式 */
+@media (min-width: 1025px) {
+    body {
+        font-size: 20px;
+        padding: 30px;
+    }
+}
